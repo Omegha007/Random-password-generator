@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(126, 152, 163, 0.532);
+}
+
+.container {
+    width: 500px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 40px 30px;
+    box-shadow: 3px 3px 10px rgb(11, 11, 11);
+}
+
+.container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.inputBox {
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.inputBox span {
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(24, 20, 20);
+}
+
+.passBox {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: rgba(185, 173, 173, 0.262);
+    outline: none;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.row p {
+    font-weight: 700;
+}
+
+.getBtn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #3162cb;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.getBtn:hover {
+    background-color: rgb(28, 25, 25);
+}
